@@ -11,7 +11,7 @@ pnpm add -D hashplate
 ```javascript
 import { hashplate } from "hashplate";
 
-const hash = hashplate("Hello, World!");
+const hash = hashplate("Hello World!");
 // returns "🦐 GP-150-UJ 🪣"
 ```
 
