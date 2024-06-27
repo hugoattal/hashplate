@@ -5,6 +5,26 @@
     "type": "module",
     "main": "./dist/index.umd.cjs",
     "module": "./dist/index.js",
+    "license": "MIT",
+    "author": {
+        "name": "Hugo Attal",
+        "url": "https://twitter.com/HugoAttal"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hugoattal/hashplate.git"
+    },
+    "homepage": "https://github.com/hugoattal/hashplate#readme",
+    "url": "https://github.com/hugoattal/hashplate",
+    "bugs": {
+        "url": "https://github.com/hugoattal/hashplate/issues"
+    },
+    "keywords": [
+        "hash",
+        "hashing",
+        "hash generator",
+        "human readable"
+    ],
     "types": "./dist/index.d.ts",
     "scripts": {
         "dev": "vite",
@@ -29,7 +49,7 @@
         "@typescript-eslint/eslint-plugin": "^7.14.1",
         "@typescript-eslint/parser": "^7.14.1",
         "@vitest/ui": "^1.6.0",
-        "eslint": "^9.5.0",
+        "eslint": "^8.57.0",
         "eslint-import-resolver-alias": "^1.1.2",
         "eslint-import-resolver-typescript": "^3.6.1",
         "eslint-plugin-import": "^2.29.1",

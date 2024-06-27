@@ -1,5 +1,5 @@
-import {getSeedFromString, splitMix32} from "@/prng.ts";
-import {emojiDictionary} from "@/dictionaries.ts";
+import { getSeedFromString, splitMix32 } from "@/prng.ts";
+import { emojiDictionary } from "@/dictionaries.ts";
 
 export function hashplate(value: string) {
     const seed = getSeedFromString(value);
