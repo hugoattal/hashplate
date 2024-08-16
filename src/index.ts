@@ -1,8 +1,10 @@
 import { getSeedFromString, splitMix32 } from "@/prng.ts";
 import { emojiDictionary } from "@/dictionaries.ts";
 
-export function hashplate(value: string) {
-    const seed = getSeedFromString(value);
+export function hashplate(value: unknown) {
+    const stringSeed = (typeof value === "string") ? value : JSON.stringify(value);
+
+    const seed = getSeedFromString(stringSeed);
     const random = splitMix32(seed);
 
     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
